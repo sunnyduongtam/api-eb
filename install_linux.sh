@@ -5,3 +5,4 @@ wget --no-check-certificate -q https://github.com/sunnyduongtam/api-eb/blob/main
 wget --no-check-certificate -q https://github.com/sunnyduongtam/api-eb/blob/main/linux/version/$emby_version/dashboard-ui/embypremiere/embypremiere.js /opt/emby-server/system/dashboard-ui/embypremiere/embypremiere.js
 wget --no-check-certificate -q https://github.com/sunnyduongtam/api-eb/blob/main/linux/version/$emby_version/dashboard-ui/modules/emby-apiclient/connectionmanager.js /opt/emby-server/system/dashboard-ui/modules/emby-apiclient/connectionmanager.js
 systemctl start emby-server
+echo "Check your emby server"
